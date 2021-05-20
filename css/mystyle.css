@@ -1,0 +1,20 @@
+
+.imglogo{
+    width: 50px;
+    height: auto;
+    align-content: center;
+}
+
+form{
+    /* background-color: rgb(222,228,230); */
+    background-color: lightgray;
+}
+.imgarrow{
+    width: 20px;
+    height: 30px;
+}
+.card-img-top{
+    border-top-right-radius: 10% ;
+    border-top-left-radius: 10% ;
+    border-bottom-left-radius: 10% ;
+}
