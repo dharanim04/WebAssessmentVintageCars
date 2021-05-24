@@ -1,6 +1,30 @@
-
+body{
+    
+}
+.image-container {
+    background-image: url("/images/background-image2.jpg"); /* The image used - important! */
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 300px; /* Some height */
+  }
+  
+  .textcls {
+    background-color: rgb(226, 241, 245);
+    color: rgb(0, 0, 0);
+    font-size: 5vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 0px;
+    width: 60%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
 .imglogo{
-    width: 50px;
+    width: 2rem;
     height: auto;
     align-content: center;
 }
@@ -10,16 +34,25 @@ form{
     background-color: lightgray;
 }
 .imgarrow{
-    width: 20px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
 }
 .card-img-top{
     border-top-right-radius: 10% ;
     border-top-left-radius: 10% ;
     border-bottom-left-radius: 10% ;
      width: 100%;
-   height: 200px;
+   height: 14rem;
 }
+.card{
+    transition: transform 1.3s;
+}
+.card:hover{
+    /* box-shadow: -20px 20px 20px rgba(22, 20, 19, 0.589); */
+   
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    }
 .container, .card{
     box-shadow: 5px 5px 10px rgba(22, 20, 19, 0.589);
 
