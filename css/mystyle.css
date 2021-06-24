@@ -2,7 +2,7 @@ body{
     
 }
 .image-container {
-    background-image: url("/images/background-image2.jpg"); /* The image used - important! */
+    background-image: url("./images/background-image2.jpg"); /* The image used - important! */
     background-size: cover;
     position: relative; /* Needed to position the cutout text in the middle of the image */
     height: 300px; /* Some height */
